@@ -12,11 +12,21 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Newsletter
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/newsletter/master/_listings/bigcommerce/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: BigCommerce API V3 - Returns all newsletter subscribers
+  x-api-slug: store-hashv3customerssubscribers-get
+  description: Returns a paginated Subscribers collection.
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/newsletter/master/_listings/bigcommerce/store-hashv3customerssubscribers-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://betterdoctor.api.gallery.streamdata.io
